@@ -1,0 +1,2 @@
+wc -c < test1.sh > temp.txt
+exit

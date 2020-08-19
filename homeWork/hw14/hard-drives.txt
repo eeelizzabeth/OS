@@ -1,0 +1,17 @@
+# Instructions: edit this file to provide your homework answers.
+#
+# Problem numbers are shown on lines that begin with #@.
+# Please put your solution to a problem on the line *after* the
+# line with the problem number.
+#
+# Do not modify this file *except* to add lines as needed after each problem.
+# Blank lines are ignored.
+#
+# No points will be awarded to incorrectly-formatted files.
+
+#@ 1 -- enter 'a', 'b', or 'c'   (don't use quotes in any of your answers)
+a
+#@ 2 -- enter a number  (don't provide units -- units of seconds are assumed)
+10.9
+#@ 3 -- enter a number  (don't provide units -- units of MB/sec are assumed)
+0.9

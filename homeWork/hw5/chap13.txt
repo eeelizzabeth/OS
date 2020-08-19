@@ -1,0 +1,23 @@
+# Problem numbers are shown on lines that begin with #@.
+# Please put your solution to a problem on the line *after* the
+# line with the problem number. Don't modify the file in any other way.
+
+#@ 1 -- enter 'a', 'b', or 'c'  (don't use quotes in any answer)
+
+a
+
+#@ 2 -- enter 'a', 'b', or 'c'
+
+a
+
+#@ 3 -- enter 'Y' or 'N'
+
+N
+
+#@ 4 -- enter 'a', 'b', or 'c'
+
+a
+
+#@ 5 -- enter 'T' or 'F'
+
+F

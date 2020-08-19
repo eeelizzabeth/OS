@@ -1,0 +1,88 @@
+
+# Problem lines begin with #@.
+# For each problem, put your answer on
+# the line following the problem line.
+# Do not modify this file in any way 
+# except to insert your answers.
+
+#@ 1 -- enter a number
+
+22
+
+#@ 2 -- enter a number
+
+7
+
+#@ 3 -- enter a number
+
+3
+
+#@ 4 -- enter a number
+
+25
+
+#@ 5 -- enter a number
+
+255
+
+
+#@ 6 -- enter a binary number
+
+1101
+
+#@ 7 -- enter a binary number
+
+10101
+
+#@ 8 -- enter a binary number
+
+10000
+
+#@ 9 -- enter a binary number
+
+110111
+
+#@ 10 -- enter a binary number
+
+1010000
+
+
+#@ 11 -- enter a number
+
+44
+
+#@ 12 -- enter a number
+
+18
+
+#@ 13 -- enter a number
+
+471
+
+#@ 14 -- enter a number
+
+255
+
+#@ 15 -- enter a number
+
+123
+
+#@ 16 -- enter a hex number (beginning with 0x)
+
+0x12
+
+#@ 17 -- enter a hex number
+
+0x5
+
+#@ 18 -- enter a hex number
+
+0x58
+
+#@ 19 -- enter a hex number
+
+0x7B
+
+#@ 20 -- enter a hex number
+
+0x64

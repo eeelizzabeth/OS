@@ -1,0 +1,31 @@
+# Instructions: edit this file to provide your homework answers.
+#
+# Problem numbers are shown on lines that begin with #@.
+# Please put your solution to a problem on the line *after* the
+# line with the problem number.
+#
+# Do not modify this file *except* to add lines as needed after each problem.
+# Blank lines are ignored.  You don't need to put your name in the file.
+#
+# No points will be awarded to incorrectly-formatted files.
+#
+
+# Reading
+
+#@ 1 -- enter 'a', 'b', 'c', or 'd'  (don't use quotes in any answer)
+
+c
+
+#@ 2 -- enter 'a', 'b', or 'c'
+
+c
+
+#@ 3 -- enter 'a', 'b', or 'c'
+
+a
+
+#@ 4 -- enter a single number
+4
+
+#@ 5 -- enter a single number
+4

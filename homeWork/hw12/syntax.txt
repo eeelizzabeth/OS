@@ -1,0 +1,55 @@
+# Instructions: edit this file to provide your homework answers.
+#
+# Problem numbers are shown on lines that begin with #@.
+# Please put your solution to a problem on the line *after* the
+# line with the problem number.
+#
+# Do not modify this file *except* to add lines as needed after each problem.
+# Blank lines are ignored.
+#
+# No points will be awarded to incorrectly-formatted files.
+#
+
+# Parsing
+
+#@ 1 -- enter 'Y' or 'N'   (don't use quotes in any of your answers)
+
+
+Y
+
+#@ 2 -- enter 'Y' or 'N'
+
+Y
+
+#@ 3 -- enter 'Y' or 'N'
+
+N
+
+
+#@ 4 -- enter 'Y' or 'N'
+
+N
+
+#@ 5 -- enter 'Y' or 'N'
+
+N
+
+#@ 6 -- enter 'Y' or 'N'
+
+Y
+
+#@ 7 -- enter 'Y' or 'N'
+
+Y
+
+#@ 8 -- enter 'Y' or 'N'
+
+N
+
+#@ 9 -- enter 'Y' or 'N'
+
+N
+
+#@ 10 -- enter 'Y' or 'N'
+
+Y

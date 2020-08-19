@@ -1,0 +1,21 @@
+#
+# please edit this file by inserting your answer on the line after each problem
+#
+# DO NOT edit the file in any other way!
+#
+
+#@ 1 -- enter T or F
+
+F
+
+#@ 2 -- enter T or F
+
+T
+
+#@ 3 -- enter T or F
+
+F
+
+#@ 4 -- enter T or F
+
+T

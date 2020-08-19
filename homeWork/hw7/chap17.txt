@@ -1,0 +1,53 @@
+#
+# Problem lines begin with "#@".
+# For each problem line, put your answer *on the following line*.
+# Do not modify this file in any way except to insert your answers.
+#
+
+# Each problem line shows a malloc or free operation.  On the line
+# after the problem line, enter the free list in the style shown
+# in the homework instructions.
+# For example:  (1004,5) -> (1009,91) 
+# (spaces are ignored)
+# If you don't use the correct format you won't get credit for your answers. 
+
+#@ 1  free(ptr1)  (write the free list)
+
+(1000, 4) -> (1004, 5) -> (1009, 91)
+
+#@ 2  ptr2 = alloc(3)
+
+(1003, 1) -> (1004, 5) -> (1009, 91)
+
+#@ 3  free(ptr2)
+
+(1000, 3) -> (1003, 1) -> (1004, 5) -> (1009, 91)
+
+#@ 4  ptr3 = alloc(10)
+
+(1000, 3) -> (1003, 1) -> (1004, 5) -> (1019, 81)
+
+#@ 5  ptr4 = alloc(8)
+
+(1000, 3) -> (1003, 1) -> (1004, 5) -> (1027, 73)
+
+#@ 6  ptr2 = alloc(24)  
+
+(1000, 2) -> (1052, 48)
+
+#@ 7  ptr3 = alloc(30)
+
+(1000, 2) -> (1082, 18)
+
+#@ 8  free(ptr1)
+
+(1000, 28) -> (1082, 18)
+
+#@ 9  ptr4 = alloc(13)
+
+(1013, 15) -> (1082, 18)
+
+#@ 10  ptr5 = alloc(13)
+
+(1013, 15) -> (1095, 5)
+

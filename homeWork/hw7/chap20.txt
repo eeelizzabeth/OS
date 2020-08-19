@@ -1,0 +1,25 @@
+#
+# Problem lines begin with "#@".
+# For each problem line, put your answer *on the following line*.
+# Do not modify this file in any way except to insert your answers.
+#
+
+#@ 1  (enter a number only -- the units are assumed to be bytes)
+
+65536
+
+#@ 2  (enter a number)
+
+64
+
+#@ 3  (enter a number only -- the units are assumed to be bytes)
+
+64
+
+#@ 4  (enter a number only -- the units are assumed to be bytes)
+
+256
+
+#@ 5  (enter a number between 0 and 1)
+
+0.25

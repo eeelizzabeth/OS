@@ -1,0 +1,21 @@
+#
+# please edit this file by inserting your answer on the line after each problem
+#
+# DO NOT edit the file in any other way!
+#
+
+#@ 1 -- enter a, b, or c   (do not use quotes)
+
+a
+
+#@ 2 -- enter a single integer
+
+5
+
+#@ 3 -- enter T or F
+
+T
+
+#@ 4 -- enter a, b, or c
+
+a

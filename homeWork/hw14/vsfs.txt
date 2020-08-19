@@ -1,0 +1,160 @@
+# Instructions: 
+#
+# Problem numbers are shown on lines that begin with #@.
+# Please put your solution to a problem on the line *after* the
+# line with the problem number.  For problems 1f-1j, please edit
+# the lines provided.
+#
+# Do not modify this file except to add lines as needed after each problem.
+# Blank lines are ignored.  No points to incorrectly-formatted files.
+#
+#
+# problem 1
+#
+# start state:
+inode bitmap  10000000
+inodes        [d a:0 r:2] [] [] [] [] [] [] []
+data bitmap   10000000
+data          [(.,0) (..,0)] [] [] [] [] [] [] []
+# end state:
+inode bitmap  11000000
+inodes        [d a:0 r:3] [d a:1 r:2] [] [] [] [] [] []
+data bitmap   11000000
+data          [(.,0) (..,0) (t,1)] [(.,1) (..,0)] [] [] [] [] [] []
+#@ 1 -- enter a VSFS command to get from start state to end state
+mkdir("/t");
+#
+# problem 2
+#
+# start state:
+inode bitmap  11110000
+inodes        [d a:0 r:5] [d a:1 r:2] [f a:2 r:1] [f a:-1 r:1] [] [] [] []
+data bitmap   11100000
+data          [(.,0) (..,0) (k,1) (e,2) (o,3)] [(.,1) (..,0)] [q] [] [] [] [] []
+# end state:
+inode bitmap  11111000
+inodes        [d a:0 r:5] [d a:1 r:3] [f a:2 r:1] [f a:-1 r:1] [f a:-1 r:1] [] [] []
+data bitmap   11100000
+data          [(.,0) (..,0) (k,1) (e,2) (o,3)] [(.,1) (..,0) (q,4)] [q] [] [] [] [] []
+#@ 2 -- enter a VSFS command to get from start state to end state
+creat("/k/q");
+#
+# problem 3
+#
+# start state:
+inode bitmap  11110000
+inodes        [d a:0 r:5] [d a:1 r:3] [f a:2 r:2] [f a:3 r:1] [] [] [] []
+data bitmap   11110000
+data          [(.,0) (..,0) (k,1) (o,3) (q,2)] [(.,1) (..,0) (e,2)] [p] [q] [] [] [] []
+# end state:
+inode bitmap  11100000
+inodes        [d a:0 r:4] [d a:1 r:3] [f a:2 r:2] [] [] [] [] []
+data bitmap   11100000
+data          [(.,0) (..,0) (k,1) (q,2)] [(.,1) (..,0) (e,2)] [p] [] [] [] [] []
+#@ 3 -- enter a VSFS command to get from start state to end state
+unlink("/o");
+#
+# problem 4
+#
+# start state:
+inode bitmap  11100000
+inodes        [d a:0 r:3] [d a:1 r:4] [f a:2 r:2] [] [] [] [] []
+data bitmap   11100000
+data          [(.,0) (..,0) (x,1)] [(.,1) (..,0) (c,2) (n,2)] [i] [] [] [] [] []
+# end state:
+inode bitmap  11100000
+inodes        [d a:0 r:4] [d a:1 r:4] [f a:2 r:3] [] [] [] [] []
+data bitmap   11100000
+data          [(.,0) (..,0) (x,1) (y,2)] [(.,1) (..,0) (c,2) (n,2)] [i] [] [] [] [] []
+#@ 4 -- enter a VSFS command to get from start state to end state
+link("/x/n", "/y");
+#
+# problem 5
+#
+# start state:
+inode bitmap  11111000
+inodes        [d a:0 r:4] [d a:1 r:5] [f a:2 r:2] [d a:3 r:2] [f a:-1 r:1] [] [] []
+data bitmap   11110000
+data          [(.,0) (..,0) (x,1) (v,3)] [(.,1) (..,0) (c,2) (n,2) (d,4)] [i] [(.,3) (..,0)] [] [] [] []
+# end state:
+inode bitmap  11110000
+inodes        [d a:0 r:4] [d a:1 r:4] [f a:2 r:2] [d a:3 r:2] [] [] [] []
+data bitmap   11110000
+data          [(.,0) (..,0) (x,1) (v,3)] [(.,1) (..,0) (c,2) (n,2)] [i] [(.,3) (..,0)] [] [] [] []
+#@ 5 -- enter a VSFS command to get from start state to end state
+unlink("/x/d");
+#
+# problem 6
+#
+# start state:
+inode bitmap  11100000
+inodes        [d a:0 r:4] [f a:-1 r:1] [f a:-1 r:1] [] [] [] [] []
+data bitmap   10000000
+data          [(.,0) (..,0) (t,1) (w,2)] [] [] [] [] [] [] []
+# VFSF command:
+link("/w", "/v");
+#@ 6 -- enter the end state, after executing command (4 lines of text)
+inode bitmap  11100000
+inodes        [d a:0 r:5] [f a:-1 r:1] [f a:-1 r:2] [] [] [] [] []
+data bitmap   10000000
+data          [(.,0) (..,0) (t,1) (w,2) (v,2)] [] [] [] [] [] [] []
+#
+# problem 7
+#
+# start state:
+inode bitmap  11100000
+inodes        [d a:0 r:5] [f a:1 r:1] [f a:-1 r:2] [] [] [] [] []
+data bitmap   11000000
+data          [(.,0) (..,0) (t,1) (w,2) (v,2)] [d] [] [] [] [] [] []
+# VFSF command:
+creat("/k");
+#@ 7 -- enter the end state, after executing command
+inode bitmap  11110000
+inodes        [d a:0 r:6] [f a:1 r:1] [f a:-1 r:2] [f a:-1 r:1] [] [] [] []
+data bitmap   11000000
+data          [(.,0) (..,0) (t,1) (w,2) (v,2) (k,3)] [d] [] [] [] [] [] []
+#
+# problem 8
+#
+# start state:
+inode bitmap  11110000
+inodes        [d a:0 r:6] [d a:1 r:2] [f a:-1 r:2] [f a:-1 r:1] [] [] [] []
+data bitmap   11000000
+data          [(.,0) (..,0) (v,1) (c,2) (d,3) (q,2)] [(.,1) (..,0)] [] [] [] [] [] []
+# VFSF command:
+unlink("/c");
+#@ 8 -- enter the end state, after executing command
+inode bitmap  11110000
+inodes        [d a:0 r:5] [d a:1 r:2] [f a:-1 r:1] [f a:-1 r:1] [] [] [] []
+data bitmap   11000000
+data          [(.,0) (..,0) (v,1) (d,3) (q,2)] [(.,1) (..,0)] [] [] [] [] [] []
+#
+# problem 9
+#
+# start state:
+inode bitmap  11001000
+inodes        [d a:0 r:3] [d a:1 r:3] [] [] [f a:-1 r:1] [] [] []
+data bitmap   11000000
+data          [(.,0) (..,0) (t,1)] [(.,1) (..,0) (k,4)] [] [] [] [] [] []
+# VFSF command:
+link("/t/k", "/m");
+#@ 9 -- enter the end state, after executing command
+inode bitmap  11001000
+inodes        [d a:0 r:4] [d a:1 r:3] [] [] [f a:-1 r:2] [] [] []
+data bitmap   11000000
+data          [(.,0) (..,0) (t,1) (m,4)] [(.,1) (..,0) (k,4)] [] [] [] [] [] []
+#
+# problem 10
+#
+# start state:
+inode bitmap  11111000
+inodes        [d a:0 r:5] [d a:1 r:3] [d a:3 r:2] [d a:4 r:2] [f a:2 r:1] [] [] []
+data bitmap   11111000
+data          [(.,0) (..,0) (t,1) (n,2) (r,3)] [(.,1) (..,0) (r,4)] [o] [(.,2) (..,0)] [(.,3) (..,0)] [] [] []
+# VFSF command:
+creat("/h");
+#@ 10 -- enter the end state, after executing command
+inode bitmap  11111100
+inodes        [d a:0 r:6] [d a:1 r:3] [d a:3 r:2] [d a:4 r:2] [f a:2 r:1] [f a:-1 r:1] [] []
+data bitmap   11111000
+data          [(.,0) (..,0) (t,1) (n,2) (r,3) (h,5)] [(.,1) (..,0) (r,4)] [o] [(.,2) (..,0)] [(.,3) (..,0)] [] [] []

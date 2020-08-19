@@ -1,0 +1,47 @@
+#
+# Homework answer sheet
+#
+# Problem lines begin with "#@".
+# For each problem line, put your answer on the following line.
+# Do not modify this file in any way except to insert your answers.
+#
+
+#@ 1 -- enter 'a', 'b', 'c', or 'd' (don't use quotes in any answer)
+
+d
+
+#@ 2 -- enter 'a', 'b', or 'c' 
+
+c
+
+#@ 3 -- enter 'a' or 'b'
+
+b
+
+#@ 4 -- enter 'a', 'b', or 'c' 
+
+b
+
+#@ 5 -- enter 'a', 'b', or 'c'
+
+b
+
+#@ 6 -- enter 'a', 'b', or 'c' 
+
+c
+
+#@ 7 -- enter 'a' or 'b'
+
+a
+
+#@ 8 -- enter 'a' or 'b'
+
+b
+
+#@ 9 -- enter 'Y' or 'N'
+
+N
+
+#@ 10 -- enter 'T' or 'F'
+
+T

@@ -1,0 +1,21 @@
+# Instructions: edit this file to provide your homework answers.
+#
+# Problem numbers are shown on lines that begin with #@.
+# Please put your solution to a problem on the line *after* the
+# line with the problem number.
+#
+# Do not modify this file *except* to add lines as needed after each problem.
+# Blank lines are ignored.
+#
+# No points will be awarded to incorrectly-formatted files.
+
+#@ 1 -- enter a number (don't provide units)
+1
+#@ 2 -- enter 'a', 'b', or 'c'
+c
+#@ 3 -- enter a number (don't provide units)
+2
+#@ 4 -- enter a number (don't provide units, such as KB)
+20
+#@ 5 -- enter 'T' or 'F'
+T

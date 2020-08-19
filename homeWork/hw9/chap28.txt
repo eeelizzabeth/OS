@@ -1,0 +1,22 @@
+#
+# please edit this file by inserting your answer on the line after each problem
+#
+# DO NOT edit the file in any other way!
+#
+
+#@ 1 -- enter T or F   (do not use quotes)
+
+T
+
+#@ 2 -- enter a, b, or c
+
+a
+
+#@ 3 -- enter a, b, or c
+
+c
+
+#@ 4 -- enter a, b, or c
+
+a
+

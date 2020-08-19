@@ -1,0 +1,46 @@
+#
+# please edit this file by inserting your answer on the line after each problem
+#
+# DO NOT edit the file in any other way!
+#
+
+#@ 1 -- enter a or b
+
+B
+
+#@ 2 -- enter a, b, or c
+
+C
+
+#@ 3 -- enter a, b, or c
+a
+
+#@ 4 -- enter a, b, or c
+a
+
+# For problems 5 and 6, enter the number in the 'evict'
+# column, or '-' if no cache element is evicted.
+
+#@ 5.1 -- enter a number from 0 to 3, or '-' -- don't use quotes in your answer
+
+2
+
+#@ 5.2 -- enter a number from 0 to 3, or -
+
+-
+
+#@ 5.3 -- enter a number from 0 to 3, or -
+
+3
+
+#@ 6.1 -- enter a number from 0 to 3, or -
+
+-
+
+#@ 6.2 -- enter a number from 0 to 3, or -
+
+1
+
+#@ 6.3 -- enter a number from 0 to 3, or -
+
+-

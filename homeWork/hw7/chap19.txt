@@ -1,0 +1,25 @@
+#
+# Problem lines begin with "#@".
+# For each problem line, put your answer *on the following line*.
+# Do not modify this file in any way except to insert your answers.
+#
+
+#@ 1  (enter a, b, or c)
+
+c
+
+#@ 2  (enter a number between 0 and 1)
+
+0.8
+
+#@ 3  (enter a or b)
+
+a
+
+#@ 4  (enter Y or N)
+
+Y
+
+#@ 5  (enter a, b, or c)
+
+a
